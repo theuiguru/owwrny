@@ -1,4 +1,4 @@
-<h1>OWWRNY</h1>
+<h1>Old Westbury Web Radio [OWWRNY]</h1>
 
 <a href="http://www.owwrny.org" target="_blank">www.owwrny.org</a>
 
