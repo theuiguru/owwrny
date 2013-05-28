@@ -30,3 +30,40 @@ OWWR, Old Westbury Web Radio<br/>
 SUNY College at Old Westbury<br/>
 223 Storehill Road<br/>
 Old Westbury, NY 11568-0410
+
+<h2>OWWR Schedule and Jocks</h2>
+Monday:
+1-2PM, “The Other World”, L. Blackstone
+3-4PM, “Kawaii Beatbox”, Henry
+4-5PM, “In The Know”, OWWR News
+7-9PM, ”Fire On The Mountain Radio”, Steve Kietz 
+9-11PM, “SOWWRADIO”, W. Degraff
+Tuesday:
+11-1PM, M. Derisma
+1-3PM, “Awareness Avenue”, Dr. Deb
+7-9PM, “TNT” 
+Wednesday:
+12-2PM, “Grind Time Mix”, Rodney Lawrence
+3-4PM, “The O-Zone”, C. Orlando
+4-7PM, “Kool Kids”, C. Ortiz
+7-10PM, “Wire Radio”, E.Perry 
+Thursday:
+11-12PM, “Global Media News”
+3-4PM, “The Calling”, K. Taylor, T. Roberts
+5-6PM, B. Allen
+6-7PM, “Metronome”, D. Varmu
+7-8PM, “Sabor Latino”, N. Callado
+8-10PM, “Pangea”, Christopher Harris 
+Friday
+11-12PM, “DJ Sandra Dee’s Sweet Beatz”
+12-1PM, “Tuned Out” S. Doyle 
+1-4PM, “St. James Infirmary”, M. Mand
+4-6PM, “What’s The Score”, M. Loades and C. Kirshbaum
+7-9PM, “Best Kept Secret” R.Coles
+Saturday
+1-3PM, “The Yes Hour” Christopher James, Chantrese Williams and J. John
+3-5PM, “Choice Cuts”, G. Carlton
+7-9PM, “Kawaii Beatbox”, Henry
+9-11PM, “The Wickedest Time”, S. Mosley
+Sunday 
+7-9PM, “Kawaii Beatbox”, Henry
