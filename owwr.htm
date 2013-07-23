@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<meta name="Keywords" content="SUNY Old Westbury, OWWRNY, OWWR, owwrny, owwr, college, radio, station" />
+<meta name="Description" content="The Official Website of SUNY Old Westbury Web Radio!" />
+<meta name="Author" content="Chris Thomas"><title>SUNY Old Westbury Web Radio | OWWRNY</title>
+<link rel="shortcut icon" href="https://raw.github.com/theuiguru/owwrny/master/images/favicon.png"><style type="text/css">
+html, body {background:#000000 url(https://raw.github.com/theuiguru/owwrny/master/images/studio.jpg) center center no-repeat fixed; background-size:cover; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; color:#fff; font-family:sans-serif; font-size:20px;}
+.main {margin:0 auto; text-align:center; width:400px;}
+header {background:url(https://raw.github.com/theuiguru/owwrny/master/images/owwrny.png) no-repeat fixed center center; width:300px; height:200px; padding:100px;}
+a {color:#FFF; text-decoration:none; padding:10px;}
+a.cow {color:#006600; padding:0;}
+a.btn {background-color:#009900; padding:30px; width:300px; border-radius:3px;}
+footer {position:fixed; bottom:0; right:10px; display:inline-block; text-align:right; font-size:10px; color:#666;}
+.top {position:fixed; top:0; left:0; text-align:right;}
+</style></head><body><div class="main"><div class="top">Call OWWRNY: (516) 876-4964</div><a href="mms://137.139.34.241/radio"><header></header></a>
+<!--<p><object classid="clsid:6BF52A52-394A-11D3-B153-00C04F79FAA6" id="WMP"><param name="Name" value="WMP1"><param name="URL" value="http://137.139.34.241/radio"></object></p>
+<p><a href="http://tunein.com/radio/OWWR-s129034/" target="_blank" class="btn"><img src="https://raw.github.com/theuiguru/owwrny/master/images/headphones.png"> Listen and Be Heard!</a></p>-->
+<footer><a href="http://facebook.com/owwrny" target="_blank" title="Facebook"><img src="https://raw.github.com/theuiguru/owwrny/master/images/facebook.png"></a>
+<a href="http://twitter.com/owwrny" target="_blank" title="Twitter"><img src="https://raw.github.com/theuiguru/owwrny/master/images/twitter.png"></a>
+<a href="http://instagram.com/owwrny" target="_blank" title="Instagram"><img src="https://raw.github.com/theuiguru/owwrny/master/images/instagram.png"></a>
+<a href="http://wcow.blogspot.com" target="_blank" title="Blogger"><img src="https://raw.github.com/danleech/simple-icons/master/icons/blogger/blogger-16.png"></a>
+<a href="https://itunes.apple.com/us/app/tunein-radio/id418987775" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/theuiguru/owwrny/master/images/apple.png"></a>
+<a href="https://play.google.com/store/apps/details?id=tunein.player&hl=en" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/theuiguru/owwrny/master/images/android.png"></a>
+<a href="mailto:radio@oldwestbury.edu" title="E-Mail Us!"><img src="https://raw.github.com/danleech/simple-icons/master/icons/outlook/outlook-24.png"></a>
+<p>&copy; OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank" class="cow" title="College">SUNY College at Old Westbury</a>.</p>
+</footer></div><script language="VBSCRIPT">
+Sub cmdStandAlone_onclick
+	If isobject(WMP) Then
+		If WMP.playstate > 0 Then
+			WMP.Close()
+		End If
+		location.href = "mms://137.139.34.241/radio"
+	End If
+End Sub</script></body></html>
