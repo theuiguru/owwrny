@@ -1,6 +1,6 @@
 <h1>Old Westbury Web Radio [OWWRNY]</h1>
 
-<a href="http://www.owwrny.org" target="_blank">www.owwrny.org</a> | <a href="http://jsbin.com/igOkenO" target="_blank">OWWRNY</a> (new)
+<a href="http://www.owwrny.org" target="_blank">www.owwrny.org</a>
 
 OWWR, Old Westbury Web Radio is the official radio station of the SUNY College at Old Westbury.  OWWR provides students, faculty, alumni, and community volunteer programming that broadcasts online, and on-campus through the closed circuit cable system, channel 6. OWWR is a variety station that features News, Sports, Talk, and offers a wide variety of music programming. OWWR acts in the interest convenience and necessity of the public, entertaining both on and off campus communities. OWWR is the official radio station for coverage of the SUNY College at Old Westbury Panthers.
 
