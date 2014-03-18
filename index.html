@@ -1,18 +1,17 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-<meta name="Keywords" content="SUNY Old Westbury, OWWRNY, OWWR, owwrny, owwr, college, radio, station" />
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"><meta name="Keywords" content="SUNY Old Westbury, OWWRNY, OWWR, owwrny, owwr, college, radio, station" />
 <meta name="Description" content="The Official Website of SUNY Old Westbury Web Radio!" />
 <meta name="Author" content="Chris Thomas"><title>OWWRNY | Old Westbury Web Radio</title>
 <link rel="shortcut icon" href="https://raw.github.com/theuiguru/owwrny/master/images/favicon.png"><style type="text/css">
 html, body {background:#000000 url(https://raw.github.com/theuiguru/owwrny/master/images/studio.jpg) fixed center no-repeat; background-size:cover; color:#fff; font-family:sans-serif; font-size:20px;}
 .main {margin:0 auto; text-align:center; width:400px;}
-section {margin:6em auto; max-width:960px; width:90%; font-family:monospace, sans-serif;}
+section {display:none; margin:6em auto; max-width:960px; width:90%; font-family:monospace, sans-serif;}
 a {color:#FFF; text-decoration:none; padding:10px;}
 a.cow {color:#006600; padding:0;}
 a.btn {background-color:#009900; padding:30px; width:300px; border-radius:3px;}
 footer {position:fixed; bottom:0; right:10px; display:inline-block; text-align:right; font-size:10px; color:#666;}
-.top {position:fixed; top:0; left:0; text-align:right;}
+header {position:fixed; top:0; left:0; text-align:right; cursor:pointer;}
 </style></head><body><div class="main">
-<div class="top"><a href="./"><img src="https://raw.github.com/theuiguru/owwrny/master/images/owwrny.png"></a></div>
+<header><img src="https://raw.github.com/theuiguru/owwrny/master/images/owwrny.png"></header>
 <section>Listen and Be Heard!</section>
 <!--<p><object classid="clsid:6BF52A52-394A-11D3-B153-00C04F79FAA6" id="WMP"><param name="Name" value="WMP1"><param name="URL" value="http://137.139.34.241/radio"></object></p>
 <p><a href="http://tunein.com/radio/OWWR-s129034/" target="_blank" class="btn"><img src="https://raw.github.com/theuiguru/owwrny/master/images/headphones.png"> Listen and Be Heard!</a></p>-->
@@ -23,9 +22,7 @@ footer {position:fixed; bottom:0; right:10px; display:inline-block; text-align:r
 <a href="http://wcow.blogspot.com" target="_blank" title="Blogger"><img src="https://raw.github.com/danleech/simple-icons/master/icons/blogger/blogger-16.png" alt="Blogger"></a>
 <a href="https://itunes.apple.com/us/app/tunein-radio/id418987775" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/theuiguru/owwrny/master/images/apple.png" alt="iTunes Radio"></a>
 <a href="https://play.google.com/store/apps/details?id=tunein.player&hl=en" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/theuiguru/owwrny/master/images/android.png" alt="Android"></a>
-<a href="mailto:radio@oldwestbury.edu" title="E-Mail Us!"><img src="https://raw.github.com/danleech/simple-icons/master/icons/outlook/outlook-24.png" alt="E-Mail Us!"></a>
-<p>&copy; OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank" class="cow" title="College">SUNY College at Old Westbury</a>.</p>
-</footer></div><script>
+<a href="mailto:radio@oldwestbury.edu" title="E-Mail Us!"><img src="https://raw.github.com/danleech/simple-icons/master/icons/outlook/outlook-24.png" alt="E-Mail Us!"></a><p>&copy; OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank" class="cow" title="College">SUNY College at Old Westbury</a>.</p></footer></div><script>
 Sub cmdStandAlone_onclick
 	If isobject(WMP) Then
 		If WMP.playstate > 0 Then
@@ -33,4 +30,9 @@ Sub cmdStandAlone_onclick
 		End If
 		location.href = "mms://137.139.34.241/radio"
 	End If
-End Sub</script></body></html>
+End Sub</script><script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script><script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery("header").click(function() {
+		jQuery("section").slideToggle("3000");
+  	});
+});</script></body></html>
