@@ -3,26 +3,27 @@
 <meta name="Author" content="Chris Thomas"><title>OWWRNY | Old Westbury Web Radio</title>
 <link rel="shortcut icon" href="https://raw.github.com/theuiguru/owwrny/master/images/favicon.png"><style type="text/css">
 html, body {background:#000000 url(https://raw.github.com/theuiguru/owwrny/master/images/studio.jpg) fixed center no-repeat; background-size:cover; color:#fff; font-family:sans-serif; font-size:20px;}
-.main {margin:0 auto; text-align:center; width:400px;}
-section {display:none; margin:6em auto; max-width:960px; width:90%; font-family:monospace, sans-serif;}
 a {color:#FFF; text-decoration:none; padding:10px;}
 a.cow {color:#006600; padding:0;}
 a.btn {background-color:#009900; padding:30px; width:300px; border-radius:3px;}
-footer {position:fixed; bottom:0; right:10px; display:inline-block; text-align:right; font-size:10px; color:#666;}
 header {position:fixed; top:0; left:0; text-align:right; cursor:pointer;}
+section {display:none; margin:6em auto; max-width:960px; width:90%; font-family:monospace, sans-serif;}
+aside {position:absolute; top:50%; left:0; right:0;}
+footer {position:fixed; bottom:0; right:10px; display:inline-block; text-align:right; font-size:10px; color:#666;}
+.main {margin:0 auto; text-align:center;}
 </style></head><body><div class="main">
 <header><img src="https://raw.github.com/theuiguru/owwrny/master/images/owwrny.png"></header>
 <section>Listen and Be Heard!</section>
+<aside><iframe src="http://tunein.com/radio/OWWR-s129034/" frameborder="0" height="150" width="500"></iframe></aside>
+<footer><a href="tel:5168767502" title="Call OWWRNY"><img src="https://raw.github.com/danleech/simple-icons/master/icons/whatsapp/whatsapp-32.png" alt="Call OWWRNY!"></a>
+<a href="http://facebook.com/owwrny" target="_blank" title="Facebook"><img src="https://raw.github.com/danleech/simple-icons/master/icons/facebook/facebook-32.png" alt="Facebook"></a>
+<a href="http://twitter.com/owwrny" target="_blank" title="Twitter"><img src="https://raw.github.com/danleech/simple-icons/master/icons/twitter/twitter-32.png" alt="Twitter"></a>
+<a href="http://instagram.com/owwrny" target="_blank" title="Instagram"><img src="https://raw.github.com/danleech/simple-icons/master/icons/instagram/instagram-32.png" alt="Instagram"></a>
+<a href="http://wcow.blogspot.com" target="_blank" title="Blogger"><img src="https://raw.github.com/danleech/simple-icons/master/icons/blogger/blogger-32.png" alt="Blogger"></a>
+<a href="https://itunes.apple.com/us/app/tunein-radio/id418987775" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/danleech/simple-icons/master/icons/apple/apple-32.png" alt="iTunes Radio"></a>
+<a href="https://play.google.com/store/apps/details?id=tunein.player&amp;hl=en" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/danleech/simple-icons/master/icons/android/android-32.png" alt="Android"></a> <a href="mailto:radio@oldwestbury.edu" title="E-Mail Us!"><img src="https://raw.github.com/danleech/simple-icons/master/icons/outlook/outlook-32.png" alt="E-Mail Us!"></a><br>© OWWRNY™ is a part of the <a href="http://oldwestbury.edu" target="_blank" class="cow" title="College">SUNY College at Old Westbury</a>.</footer>
 <!--<p><object classid="clsid:6BF52A52-394A-11D3-B153-00C04F79FAA6" id="WMP"><param name="Name" value="WMP1"><param name="URL" value="http://137.139.34.241/radio"></object></p>
-<p><a href="http://tunein.com/radio/OWWR-s129034/" target="_blank" class="btn"><img src="https://raw.github.com/theuiguru/owwrny/master/images/headphones.png"> Listen and Be Heard!</a></p>-->
-<footer><a href="tel:5168767502" title="Call OWWRNY"><img src="https://raw.github.com/danleech/simple-icons/master/icons/whatsapp/whatsapp-24.png" alt="Call OWWRNY!"></a>
-<a href="http://facebook.com/owwrny" target="_blank" title="Facebook"><img src="https://raw.github.com/theuiguru/owwrny/master/images/facebook.png" alt="Facebook"></a>
-<a href="http://twitter.com/owwrny" target="_blank" title="Twitter"><img src="https://raw.github.com/theuiguru/owwrny/master/images/twitter.png" alt="Twitter"></a>
-<a href="http://instagram.com/owwrny" target="_blank" title="Instagram"><img src="https://raw.github.com/theuiguru/owwrny/master/images/instagram.png" alt="Instagram"></a>
-<a href="http://wcow.blogspot.com" target="_blank" title="Blogger"><img src="https://raw.github.com/danleech/simple-icons/master/icons/blogger/blogger-16.png" alt="Blogger"></a>
-<a href="https://itunes.apple.com/us/app/tunein-radio/id418987775" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/theuiguru/owwrny/master/images/apple.png" alt="iTunes Radio"></a>
-<a href="https://play.google.com/store/apps/details?id=tunein.player&hl=en" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/theuiguru/owwrny/master/images/android.png" alt="Android"></a>
-<a href="mailto:radio@oldwestbury.edu" title="E-Mail Us!"><img src="https://raw.github.com/danleech/simple-icons/master/icons/outlook/outlook-24.png" alt="E-Mail Us!"></a><p>&copy; OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank" class="cow" title="College">SUNY College at Old Westbury</a>.</p></footer></div><script>
+<p><a href="http://tunein.com/radio/OWWR-s129034/" target="_blank" class="btn"><img src="https://raw.github.com/theuiguru/owwrny/master/images/headphones.png"> Listen and Be Heard!</a></p>--></div><script>
 Sub cmdStandAlone_onclick
 	If isobject(WMP) Then
 		If WMP.playstate > 0 Then
