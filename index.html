@@ -14,15 +14,22 @@ footer a {color:#009900; text-decoration:none;}
 .navbar {display:none;}
 .navbar li {list-style:none; margin:10px 0;}
 .navbar li a {color:#009900; text-decoration:none; display:block;}
+#home {position:relative; overflow:auto; display:block; height:100%; width:100%; padding:3p}
+#about, #schedule, #news, #contact {position:relative; overflow:auto; display:none; height:100%; width:100%; padding:3px;}
 </style></head><body>
 <header><div class="left"><img src="v1/images/owwrny.png" class="logo">
 <ul class="navbar">
-  <li><a href="#">About</a></li>
-  <li><a href="#">Schedule</a></li>
-  <li><a href="#">News</a></li>
-  <li><a href="#">Contact</a></li>
+  <li><a href="#" onclick="show_div('about'); return false;">About</a></li>
+  <li><a href="#" onclick="show_div('schedule'); return false;">Schedule</a></li>
+  <li><a href="#" onclick="show_div('news'); return false;">News</a></li>
+  <li><a href="#" onclick="show_div('contact'); return false;">Contact</a></li>
 </ul></div><div class="right"><div class="listenText">Listen and Be Heard!</div><div class="listenAudio"><audio controls name="media"><source src="http://peridot.streamguys.com:5380/live" type="audio/mpeg"></audio></div></div></header>
-<section></section><footer>
+<section><div id="home"></div>
+  <div id="about"><h2>About OWWRNY</h2></div>
+  <div id="schedule"><h2>Schedule</h2></div>
+  <div id="news"><h2>News</h2></div>
+  <div id="contact"><h2>Contact OWWRNY</h2></div>
+</section><footer>
 <ul><li><a href="tel:5168767502" title="Call OWWRNY"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/whatsapp/whatsapp-32.png" alt="Call OWWRNY!"></a></li>
   <li><a href="http://facebook.com/owwrny" target="_blank" title="Facebook"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/facebook/facebook-32.png" alt="Facebook"></a></li>
   <li><a href="http://twitter.com/owwrny" target="_blank" title="Twitter"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/twitter/twitter-32.png" alt="Twitter"></a></li>
@@ -46,4 +53,12 @@ $(function() {
     $('.navbar').slideToggle('slow');
   });
 });
+function show_div(div_id) {
+  document.getElementById('home').style.display = 'none';
+  document.getElementById('about').style.display = 'none';
+  document.getElementById('schedule').style.display = 'none';
+  document.getElementById('news').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+  document.getElementById(div_id).style.display = 'block';
+}
 </script></body></html>
