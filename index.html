@@ -1,66 +1,9 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"><meta name="Keywords" content="SUNY Old Westbury, OWWRNY, OWWR, owwrny, owwr, college, radio, station" />
 <meta name="Description" content="The Official Website of SUNY Old Westbury Web Radio!" />
 <meta name="Author" content="Chris Thomas"><title>OWWRNY | Old Westbury Web Radio</title>
-<link rel="shortcut icon" href="https://raw.github.com/theuiguru/owwrny/gh-pages/v1/images/favicon.png"><style type="text/css">
+<link rel="shortcut icon" href="v1/images/favicon.png"><style type="text/css">
 html, body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:18px; border-top:3px solid #1B5E20;}
-.left {float:left; width:50%;}
-.right {float:right; padding:50px 20px;}
-.listenText {color:#fff; font-size:2em;}
-ul.navbar {background:rgba(0,0,0,0.3); width:20%; padding:20px;}
-section {background:url('v1/images/studio.jpg') no-repeat fixed center; background-size:cover; height:100%; min-height:800px;}
-footer {padding:50px 0; color:#ccc; text-align:center; background-color:#333; font-size:11px;}
-footer ul li {display:inline-block; margin:0 20px;}
-footer a {color:#009900; text-decoration:none;}
-h2 {font-weight:500;}
-.navbar {display:none;}
-.navbar li {list-style:none; margin:10px 0;}
-.navbar li a {color:#009900; text-decoration:none; display:block;}
-#home {position:relative; overflow:auto; display:block; height:100%; width:100%; color:#fff;}
-#about, #schedule, #news, #contact {position:relative; overflow:auto; display:none; height:100%; width:100%; color:#fff;}
+header {background:url(v1/images/studio.jpg) no-repeat fixed center; background-size:cover; height:100vh; text-align:center; color:#fff;}
 </style></head><body>
-<header><div class="left"><img src="v1/images/owwrny.png" class="logo"/>
-<ul class="navbar">
-  <li><a href="#" onclick="show_div('home'); return false;">Home</a></li>  
-  <li><a href="#" onclick="show_div('about'); return false;">About</a></li>
-  <li><a href="#" onclick="show_div('schedule'); return false;">Schedule</a></li>
-  <li><a href="#" onclick="show_div('news'); return false;">News</a></li>
-  <li><a href="#" onclick="show_div('contact'); return false;">Contact</a></li>
-</ul></div><div class="right"><div class="listenText">Listen and Be Heard!</div><div class="listenAudio"><audio controls name="media"><source src="http://peridot.streamguys.com:5380/live" type="audio/mpeg"></audio></div></div></header>
-<section><div id="home"></div>
-  <div id="about"><h2>About OWWRNY</h2></div>
-  <div id="schedule"><h2>Schedule</h2></div>
-  <div id="news"><h2>News</h2></div>
-  <div id="contact"><h2>Contact OWWRNY</h2></div>
-</section><footer>
-<ul><li><a href="tel:5168767502" title="Call OWWRNY"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/whatsapp/whatsapp-32.png" alt="Call OWWRNY!"></a></li>
-  <li><a href="http://facebook.com/owwrny" target="_blank" title="Facebook"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/facebook/facebook-32.png" alt="Facebook"></a></li>
-  <li><a href="http://twitter.com/owwrny" target="_blank" title="Twitter"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/twitter/twitter-32.png" alt="Twitter"></a></li>
-  <li><a href="http://instagram.com/owwrny" target="_blank" title="Instagram"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/instagram/instagram-32.png" alt="Instagram"></a></li>
-  <li><a href="http://wcow.blogspot.com" target="_blank" title="Blogger"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/blogger/blogger-32.png" alt="Blogger"></a></li>
-  <li><a href="https://itunes.apple.com/us/app/tunein-radio/id418987775" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/apple/apple-32.png" alt="iTunes Radio"></a></li>
-  <li><a href="https://play.google.com/store/apps/details?id=tunein.player&amp;hl=en" target="_blank" title="TuneIn Radio: Search OWWR"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/android/android-32.png" alt="Android"></a></li>
-  <li><a href="mailto:radio@oldwestbury.edu" title="E-Mail Us!"><img src="https://raw.github.com/theuiguru/simple-icons/master/icons/outlook/outlook-32.png" alt="E-Mail Us!"></a></li></ul>
-  <p>&copy; OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank" class="cow" title="College">SUNY College at Old Westbury</a>.</p>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script><script type="text/javascript">
-$(function() {
-  $('.listenAudio').hide();
-  $('.listenText').on('click', function() {
-    $('.listenText').hide();
-    $('.listenAudio').show('fast');
-    $('audio').attr('autoplay', true);
-  });
-  $('.logo').on('click', function(event) {
-    event.preventDefault();
-    $('.navbar').slideToggle('slow');
-  });
-});
-function show_div(div_id) {
-  document.getElementById('home').style.display = 'none';
-  document.getElementById('about').style.display = 'none';
-  document.getElementById('schedule').style.display = 'none';
-  document.getElementById('news').style.display = 'none';
-  document.getElementById('contact').style.display = 'none';
-  document.getElementById(div_id).style.display = 'block';
-}
-</script></body></html>
+<header><p><img src="v1/images/owwrny.png" class="logo"/></p><audio controls name="media"><source src="http://peridot.streamguys.com:5380/live" type="audio/mpeg"></audio></header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script><script type="text/javascript"></script></body></html>
