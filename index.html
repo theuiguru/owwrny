@@ -6,6 +6,25 @@ html, body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-
 .container {width:80%; margin:auto; overflow:hidden;}
 header #branding {float:left;}
 header audio {float:right; margin-top:3em;}
-@media(max-width: 768px) { header #branding, header audio {float:none; text-align:center; width:100%;} }
+#boxes {margin-top:20px;}
+#boxes .box {float:left; text-align:center; width:30%; padding:10px;}
+@media(max-width: 768px) { header #branding, header audio, #boxes .box {float:none; text-align:center; width:100%;} }
 </style></head><body><header><div class="container"><div id="branding"><img src="v1/images/owwrny.png" class="logo"></div><audio controls="" name="media"><source src="http://peridot.streamguys.com:5380/live" type="audio/mpeg"></audio>
-</div></header></body></html>
+</div></header>
+<section id="boxes"><div class="container">
+        <div class="box">
+          <i class="fa fa-signal fa-5x"></i>
+          <h3>Twitter</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ut sed a! Earum voluptas, repudiandae possimus, quos tempore fugiat, veniam ipsam doloremque sed maxime libero blanditiis sint sunt pariatur reprehenderit!</p>
+        </div>
+        <div class="box">
+          <i class="fa fa-photo fa-5x"></i>
+          <h3>Instagram</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ut sed a! Earum voluptas, repudiandae possimus, quos tempore fugiat, veniam ipsam doloremque sed maxime libero blanditiis sint sunt pariatur reprehenderit!</p>
+        </div>
+        <div class="box">
+          <i class="fa fa-cube fa-5x"></i>
+          <h3>Facebook</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ut sed a! Earum voluptas, repudiandae possimus, quos tempore fugiat, veniam ipsam doloremque sed maxime libero blanditiis sint sunt pariatur reprehenderit!</p>
+        </div>
+</div></section></body></html>
