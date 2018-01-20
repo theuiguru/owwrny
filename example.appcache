@@ -1,13 +1,4 @@
 CACHE MANIFEST
 index.html
-https://fonts.googleapis.com/css?family=Open+Sans:300,400,600
-jquery.min.js
 app.js
 service-worker.js
-images/banner.jpg
-images/logo.jpg
-images/team.jpg
-images/facebook.png
-images/twitter.png
-images/soundcloud.png
-images/logo/ios/AppIcon.appiconset/Icon-App-20x20@1x.png
