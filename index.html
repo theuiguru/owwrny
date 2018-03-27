@@ -9,7 +9,13 @@ header #branding {float:left;}
 header audio {float:right; margin-top:3em;}
 #boxes {margin-top:20px; height:100vh;}
 #boxes .box {float:left; text-align:center; width:30%; padding:10px; font-size:300%;}
-.fa-twitter {color:#1da1f2;} .fa-instagram {color:#ffdc80;} .fa-facebook {color:#3b5998;}
+.icon-bar {position:fixed; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%);}
+.icon-bar a {display:block; padding:16px; transition:all 0.3s ease; font-size:20px;}
+.icon-bar a:hover {background-color:#000; opacity:0.6;}
+.facebook {background:#3B5998; color:#fff;}
+.twitter {background:#1da1f2; color:#fff;}
+.instagram {background:#fcaf45; color:#fff;}
+.youtube {background:#ff0000; color:#fff;}
 footer {font-size:10px; color:#666; padding:20px; margin-top:20px; color:#ffffff; background:transparent; text-align:center;}
 footer a {color:#006600; text-decoration:none;}
 /* The Modal (background) */
@@ -29,20 +35,12 @@ footer a {color:#006600; text-decoration:none;}
 @media(max-width: 768px) { header #branding, header audio, #boxes .box {float:none; text-align:center; width:100%;} }
 </style></head><body><header><div class="container"><div id="branding"><img src="v1/images/owwrny.png" class="logo"></div><audio controls="" name="media"><source src="http://peridot.streamguys.com:5380/live" type="audio/mpeg"></audio>
 </div></header>
-<section id="boxes"><div class="container">
-        <div class="box">
-          <h3></h3>
-          <p><a href="http://twitter.com/owwrny"><i class="fa fa-twitter"></i></a></p>
-        </div>
-        <div class="box">
-          <h3></h3>
-          <p><a href="http://instagr.am/owwrny"><i class="fa fa-instagram"></i></a></p>
-        </div>
-        <div class="box">
-          <h3></h3>
-          <p><a href="http://facebook.com/owwrny"><i class="fa fa-facebook"></i></a></p>
-        </div>
-</div></section>
+<div class="icon-bar">
+  <a href="http://facebook.com/owwrny" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="http://twitter.com/owwrny" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="http://instagr.am/owwrny" class="instagram"><i class="fa fa-instagram"></i></a>
+</div>
+<section id="boxes"><div class="container"><div class="box"></div></div></section>
 <footer><p>&copy; 2018 OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank">SUNY College at Old Westbury</a>. <a href="#" id="myBtn">Contact Us</a></p>
 <!-- The Modal --><div id="myModal" class="modal">
 <!-- Modal content --><div class="modal-content">
