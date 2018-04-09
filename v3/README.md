@@ -6,7 +6,7 @@
 
 [![Coming Soon Preview](https://startbootstrap.com/assets/img/templates/coming-soon.jpg)](https://blackrockdigital.github.io/startbootstrap-coming-soon/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-coming-soon/)**
+**[View Live Preview](https://theuiguru.github.io/owwrny/v3)**
 
 ## Status
 
