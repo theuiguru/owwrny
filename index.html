@@ -41,12 +41,16 @@ footer a {color:#006600; text-decoration:none;}
   <a href="http://instagr.am/owwrny" class="instagram"><i class="fa fa-instagram"></i></a>
 </div>
 <section id="boxes"><div class="container"><div class="box"></div></div></section>
-<footer><p>&copy; OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank">SUNY College at Old Westbury</a>. <a href="#" id="myBtn">Contact Us</a></p>
+<footer>
 <!-- The Modal --><div id="myModal" class="modal">
 <!-- Modal content --><div class="modal-content">
 <div class="modal-header"><span class="close">&times;</span><h2>Contact Us</h2></div>
 <div class="modal-body"><p>form goes here...</p></div>
 </div></div></footer><script type="text/javascript">
+var today = new Date();
+var year = today.getFullYear();
+var el = document.querySelector("footer");
+el.innerHTML = '<p>&copy;' + year + 'OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank">SUNY College at Old Westbury</a>. <a href="#" id="myBtn">Contact Us</a></p>';
 // Get the modal
 var modal = document.getElementById('myModal');
 // Get the button that opens the modal
