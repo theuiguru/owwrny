@@ -1,74 +1,121 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"><meta name="Keywords" content="SUNY Old Westbury, OWWRNY, OWWR, owwrny, owwr, college, radio, station" />
-<meta name="Description" content="The Official Website of SUNY Old Westbury Web Radio!" />
-<meta name="Author" content="Chris Thomas"><title>OWWRNY | Old Westbury Web Radio</title>
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<link rel="shortcut icon" href="v1/images/favicon.png"><style type="text/css">
-html, body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:18px; border-top:3px solid #1B5E20; background:url(v1/images/studio.jpg) no-repeat fixed center; background-size:cover; height:100vh; text-align:center; color:#fff;}
-.container {width:80%; margin:auto; overflow:hidden;}
-header #branding {float:left;}
-header audio {float:right; margin-top:3em;}
-#boxes {margin-top:20px; height:100vh;}
-#boxes .box {float:left; text-align:center; width:30%; padding:10px; font-size:300%;}
-.icon-bar {position:fixed; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%);}
-.icon-bar a {display:block; padding:16px; transition:all 0.3s ease; font-size:20px; position:relative; left:0;}
-.icon-bar a:hover {background:transparent; opacity:0.6; left:20px;}
-.facebook {background:#3B5998; color:#fff;}
-.twitter {background:#1da1f2; color:#fff;}
-.instagram {background:#fcaf45; color:#fff;}
-.youtube {background:#ff0000; color:#fff;}
-footer {font-size:10px; color:#666; padding:20px; margin-top:20px; background:transparent; text-align:right;}
-footer a {color:#006600; text-decoration:none;}
-/* The Modal (background) */
-.modal {display:none; /* Hidden by default */ position:fixed; /* Stay in place */ z-index:1; /* Sit on top */ padding-top:100px; left:0; top:0; width:100%; /* Full width */ height:100%; /* Full height */ overflow:auto; /* Enable scroll if needed */ background-color:rgb(0,0,0); /* Fallback color */ background-color:rgba(0,0,0,0.4); /* Black w/ opacity */ color:#333; font-size:18px;}
-/* Modal Header */
-.modal-header {padding:2px 16px; background-color:#5cb85c; color:white; text-align:left;}
-/* Modal Body */
-.modal-body {padding:2px 16px; text-align:center;}
-/* Modal Footer */
-.modal-footer {padding:2px 16px; background-color:#5cb85c; color:white;}
-/* Modal Content */.modal-content {position:relative; background-color:#fefefe; margin:auto; padding:0; border:1px solid #888; width:80%; box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); animation-name:animatetop; animation-duration:0.4s}
-/* Add Animation */
-@keyframes animatetop { from {top:-300px; opacity:0;} to {top:0; opacity:1;} }
-/* The Close Button */
-.close {color:#333; float:right; font-size:28px; font-weight:bold;}
-.close:hover, .close:focus {color:black; text-decoration:none; cursor:pointer;}
-@media(max-width: 768px) { header #branding, header audio, #boxes .box {float:none; text-align:center; width:100%;} }
-</style></head><body><header><div class="container"><div id="branding"><img src="v1/images/owwrny.png" class="logo"></div><audio controls="" name="media"><source src="http://peridot.streamguys.com:5380/live" type="audio/mpeg"></audio>
-</div></header>
-<div class="icon-bar">
-  <a href="http://facebook.com/owwrny" class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="http://twitter.com/owwrny" class="twitter"><i class="fa fa-twitter"></i></a> 
-  <a href="http://instagr.am/owwrny" class="instagram"><i class="fa fa-instagram"></i></a>
-</div>
-<section id="boxes"><div class="container"><div class="box"></div></div></section>
-<footer>OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank">SUNY College at Old Westbury</a>. <a href="#" id="myBtn">Contact Us</a>
-<!-- The Modal --><div id="myModal" class="modal">
-<!-- Modal content --><div class="modal-content">
-<div class="modal-header"><span class="close">&times;</span><h2>Contact Us</h2></div>
-<div class="modal-body"><p>form goes here...</p></div>
-</div></div></footer><script type="text/javascript">
-var today = new Date();
-var year = today.getFullYear();
-var el = document.querySelector("footer");
-el.innerHTML = '&copy; ' + year + ' OWWRNY&trade; is a part of the <a href="http://oldwestbury.edu" target="_blank">SUNY College at Old Westbury</a>.';
-// Get the modal
-var modal = document.getElementById('myModal');
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-// When the user clicks on the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}        
-</script></body></html>
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>OWWRNY | Old Westbury Web Radio</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head><body>
+    <!-- Background Video-->
+    <!-- <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video> -->
+    <!-- Masthead-->
+    <div class="masthead">
+        <div class="masthead-content text-white">
+            <div class="container-fluid px-4 px-lg-0 text-center">
+                <h1 class="fst-italic lh-1 mb-4"><img src="assets/img/owwrny_logo.webp" alt=""></h1>
+                <p class="mb-5"><i class="fa fa-headphones"></i> Listen and Be Heard!</p>
+                <audio controls="" name="media"><source src="http://peridot.streamguys.com:5380/live" type="audio/mpeg"></audio>
+            </div>
+        </div>
+    </div>
+    <!-- Social Icons-->
+    <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
+    <div class="social-icons">
+        <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
+            <a class="btn btn-success m-3" href="#!" data-bs-toggle="tooltip" data-bs-placement="left" title="Twitter"><i class="fa-brands fa-xl fa-twitter"></i></a>
+            <a class="btn btn-success m-3" href="#!" data-bs-toggle="tooltip" data-bs-placement="left" title="Facebook"><i class="fa-brands fa-xl fa-facebook-f"></i></a>
+            <a class="btn btn-success m-3" href="#!" data-bs-toggle="tooltip" data-bs-placement="left" title="Instagram"><i class="fa-brands fa-xl  fa-instagram"></i></a>
+            <a class="btn btn-success m-3" href="#!" data-bs-toggle="tooltip" data-bs-placement="left" title="YouTube"><i class="fa-brands fa-xl fa-youtube"></i></a>
+            <a class="btn btn-success m-3" href="tel:+15168767502" data-bs-toggle="tooltip" data-bs-placement="left" title="Call Us Live!"><i class="fa-solid fa-xl fa-phone"></i></a>
+            <a class="btn btn-success m-3" href="#" data-bs-toggle="modal" data-bs-target="#aboutUs"><i class="fa-solid fa-xl fa-clipboard-user"></i></a>
+            <a class="btn btn-success m-3" href="#" data-bs-toggle="modal" data-bs-target="#contactUs"><i class="fa-solid fa-xl fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <div class="modal fade" id="aboutUs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">About Us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>OWWR, Old Westbury Web Radio is the official radio station of SUNY Old Westbury, on the air streaming audio and video 24/7. OWWR provides student, alumni, faculty, staff, and community volunteer programming that broadcasts online, and via any wireless device or tablet. OWWR is a variety station that features news, sports, talk, and offers a wide variety of music programming. OWWR acts in the interest convenience and necessity of the public, educating, informing, and entertaining the global community. OWWR is the official radio station for coverage of the SUNY Old Westbury Panthers.</p><p>OWWR as a multimedia facility is dedicated to ensure that the students of SUNY Old Westbury are provided the opportunity to acquire transferable skills that can be demonstrated by identifying their engagement and comprehension in all 3 phases of production through a variety of exposure, as we foster their individual and collective growth in some of our primary departments including:</p>
+                <ul><li>Education</li>
+                    <li>Equipment & Facility Maintenance</li>
+                    <li>Music</li>
+                    <li>News</li>
+                    <li>Production</li>
+                    <li>Programming</li>
+                    <li>Public Affairs</li>
+                    <li>Public Relations</li>
+                    <li>Sports</li>
+                </ul>
+                <p>OWWR provides a variety of promotional opportunities for newsworthy guests, performers and venues including and not limited to the following:</p>
+                <ul><li>On-air promos, created in-house in: 30, or: 60 intervals placed in our rotation.</li>
+                <li>All social networking updates promoting interviews, ticket giveaways/merchandise giveaways and all related activities in, or out of the studios.</li>
+                <li>'Live Read's' created for on-air staff promoting above mentioned.</li>
+                </ul>
+                <p>Interviews are scheduled and executed as follows:</p>
+                <ul><li>Live on-air, or pre-recorded in studio.</li>
+                <li>Live over the phone, or pre-recorded over the phone.</li>
+                <li>OWWR staffer goes to venue or established meeting environment.</li></ul>
+                <p>Press releases can be created, generated and distributed to media outlets from OWWR. Webpages can be created for above said mentioned on OWWR News and related websites where programming can be made available for download and/or podcast.</p>
+                <p>In conjunction with the mission of our college, OWWR is an active member in the community. Our student staff members represent their respective academic programs, where they implement their critical thinking skills and creativity with live news, sports, and educational webcasts on campus, and in local communities, as seen on-line. Events include the Downtown Sounds Concert Series, Diabetes Research Institute Fundraiser “Bimmerstock”, St. Baldrick’s Fundraiser and other numerous concerts and fundraising events.</p>
+                <p>OWWR also offers tax deductible underwriting opportunities available for programming both on and off-air. For more information reach OWWR on the contact link on this website.</p>
+                <p>Thanks for listening!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contactUs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>OWWR, Old Westbury Web Radio<br/>SUNY College at Old Westbury<br/>PO Box 210<br/>Old Westbury, NY 11568</p>
+                        <p>(516) 876-7502</p>
+                    </div>
+                    <div class="col-md-6 text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48350.98305014838!2d-73.59611029189688!3d40.76342265739516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c287147c2c84f1%3A0x433fd9cfb686349d!2sOWWR%2C%20Old%20Westbury%20Web%20Radio!5e0!3m2!1sen!2sus!4v1651113954593!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
+                <form action="https://formspree.io/radio@oldwestbury.edu" method="POST">
+                    <div class="form-row">
+                      <div class="col">
+                        <label for="inputEmail4"></label>
+                        <input type="text" name="name" class="form-control" placeholder="Name" required>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col">
+                        <label for="inputEmail4"></label>
+                        <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1"></label>
+                      <textarea name="comments" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="d-grid gap-2 mt-3"><button type="submit" class="btn btn-success btn-block">Send</button></div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body></html>
